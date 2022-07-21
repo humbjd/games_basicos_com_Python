@@ -129,6 +129,9 @@ while True:
                             pontos += 1
                         else:
                             print('Você \033[31mERROU')
+                    sleep(3)
+                    os.system('cls') or None
+
                 elif opcao == 2:
                     p = choice(musica)
                     print(p)
@@ -205,6 +208,9 @@ while True:
                             pontos += 1
                         else:
                             print('Você \033[31mERROU\033[m')
+                    sleep(3)
+                    os.system('cls') or None
+
                 elif opcao == 3:
                     p = choice(comida)
                     print(p)
@@ -280,6 +286,9 @@ while True:
                             pontos += 1
                         else:
                             print('Você \033[31mERROU\033[m')
+                    sleep(3)
+                    os.system('cls') or None
+
                 elif opcao == 4:
                     p = choice(novela)
                     print(p)
@@ -355,6 +364,9 @@ while True:
                             pontos += 1
                         else:
                             print('Você \033[31mERROU\033[m')
+                    sleep(3)
+                    os.system('cls') or None
+
                 elif opcao == 5:
                     p = choice(bebidas)
                     print(p)
@@ -430,6 +442,9 @@ while True:
                             pontos += 1
                         else:
                             print('Você \033[31mERROU\033[m')
+                    sleep(3)
+                    os.system('cls') or None
+
                 else:
                     print('Valor incorreto, tente novamente')
                 ini += 1
