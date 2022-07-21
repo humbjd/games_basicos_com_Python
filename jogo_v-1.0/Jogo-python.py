@@ -43,6 +43,7 @@ while True:
     os.system('cls') or None
     if inicio in 'GO':
         try:
+            menu()
             while True:
                 opcao = int(input('Sua escolha: '))
                 while opcao > 5 or opcao < 0:
