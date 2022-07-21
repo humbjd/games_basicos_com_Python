@@ -1,5 +1,6 @@
 from random import choice
 import os
+from time import sleep
 
 pontos = ini = 0
 esportes = ['Quem é PELÉ ?', 'Quem é CR7?',
@@ -32,6 +33,7 @@ def menu():
     print('\033[34m -' * 10)
     for item in temas:
         print(f'\033[93m{item:<20}|', '\033[34m')
+        sleep(0.5)
     print(' -' * 10, '\033[m')
 
 
